@@ -1,0 +1,28 @@
+selenium.txt
+Created Tue Mar  5 09:45:09 AKST 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Selenium - Web Browser Automation
+
+
+What is Selenium?
+=================
+Selenium automates browsers.  That's it! What you do with that
+power is entirely up to you.  Primarily, it is for automating web
+applications for testing purposes, but is certainly not limited
+to just that.  Boring web-based administration tasks can (and
+should!) be automated as well.
+
+Selenium has the support of some of the largest browser vendors
+who have taken (or are taking) steps to make Selenium a native
+part of their browser.  It is also the core technology in
+countless other browser automation tools, APIs and frameworks.
+--seleniumhq.org
+
+
+Links
+=====
+Selenium - Web Browser Automation
+https://www.seleniumhq.org/
+
