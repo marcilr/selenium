@@ -14,3 +14,5 @@ https://www.seleniumhq.org/docs/
 Selenium - Web Browser Automation
 https://www.seleniumhq.org/
 
+Test Automation for Web Applications
+https://www.seleniumhq.org/docs/01_introducing_selenium.jsp
