@@ -8,6 +8,9 @@ Selenium related links
 
 Lnks
 =====
+Documentation
+https://www.seleniumhq.org/docs/
+
 Selenium - Web Browser Automation
 https://www.seleniumhq.org/
 
