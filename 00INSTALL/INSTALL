@@ -117,6 +117,25 @@ Also, download the testng-6.8.7.jar file to your system.
     inflating: testng-6.8.7.jar
   $
 
+7. "Start Chrome via Selenium Server
+Your server setup is ready.  Start the Chrome
+via standalone selenium server using Xvfb utility.
+
+Run Chrome via Selenium Server 
+  $ xvfb-run java -Dwebdriver.chrome.driver=/usr/bin/chromedriver \
+  -jar selenium-server-standalone.jar
+
+Use -debug option at end of command to start server in debug mode.
+
+You can also Start Headless ChromeDriver by typing the below
+command on terminal.
+
+  $ chromedriver --url-base=/wd/hub
+
+Your Selenium server is now running with Chrome.  Use this server
+to run your test cases written in Selenium using Google Chrome
+web browser.  Next step is an optional step and doesn’t depend
+on Step 5.
 
 
 Links
