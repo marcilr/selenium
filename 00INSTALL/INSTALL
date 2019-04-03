@@ -5,6 +5,14 @@ by Raymond E. Marcil <marcilr@gmail.com>
 
 Installation of selenium on Debian 9.8 amd64
 
+These instructions install Selenium with ChromeDriver
+on Debian 9 and Debian 8. 
+
+A java program can then be used to access a
+Selenium server with ChromeDriver running 
+a test case.
+
+
 
 Links
 =====
