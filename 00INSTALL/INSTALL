@@ -81,10 +81,55 @@ $ chrome   ===> Runs chrome
 
 Looks good.
 
+5. Install "ChromeDriver is a standalone server which
+implements WebDriver’s wire protocol[1] for Chromium.
+The WebDriver is an open source tool for automated
+testing of web apps across multiple browsers."
+
+  $ mkdir tmp
+  $ cd tmp
+  $ wget https://chromedriver.storage.googleapis.com/2.41/chromedriver_linux64.zip
+  $ unzip chromedriver_linux64.zip
+  Archive:  chromedriver_linux64.zip
+    inflating: chromedriver
+  $
+
+"You can find the latest ChromeDriver on its official download page.[2]
+Now execute below commands to configure ChromeDriver on your system."
+
+  $ sudo mv chromedriver /usr/bin/chromedriver
+  $ sudo chown root:root /usr/bin/chromedriver
+  $ sudo chmod +x /usr/bin/chromedriver
+
+6. Download Required Jar Files
+"The Selenium Server is required to run Remote Selenium WebDrivers.
+You need to download the Selenium standalone server jar file using
+the below commands or visit here[3] to find the latest version of Jar
+file."
+
+  $ wget https://selenium-release.storage.googleapis.com/3.13/selenium-server-standalone-3.13.0.jar
+
+Also, download the testng-6.8.7.jar file to your system.
+
+  $ wget http://www.java2s.com/Code/JarDownload/testng/testng-6.8.7.jar.zip
+  $ unzip testng-6.8.7.jar.zip
+  Archive:  testng-6.8.7.jar.zip
+    inflating: testng-6.8.7.jar
+  $
+
 
 
 Links
 =====
+[1] WebDriver’s wire protocol
+https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol
+
+[2] ChromeDriver on its official download page.
+https://sites.google.com/a/chromium.org/chromedriver/downloads
+
+[3] here 
+http://www.seleniumhq.org/download/
+
 How to Install Google Chrome on Ubuntu and LinuxMint
 Written by Rahul, Updated on October 18, 2018 
 https://tecadmin.net/install-google-chrome-in-ubuntu/
