@@ -13,10 +13,72 @@ Selenium server with ChromeDriver running
 a test case.
 
 
+1. On Debian install dependencies:
+unzip - De-archiver for .zip files
+xvfb - Virtual Framebuffer 'fake' X server
+libgconf-2-4 - GNOME configuration database system (shared libraries)
+
+# apt-get update
+# apt-get upgrade
+# aptitude install xvfb libxi6 libgconf-2-4
+# aptitude install curl
+
+2. Install OpenJDK:
+default-jdk - Standard Java or Java compatible Development Kit
+default-jdk-doc - Standard Java or Java compatible Development Kit (documentation)
+default-jdk-headless - Standard Java or Java compatible Development Kit (headless)
+
+# aptitude install default-jdk default-jdk-doc default-jdk-headless
+
+This install Java 8 OpenJDK.
+
+$ java -version
+openjdk version "1.8.0_212"
+OpenJDK Runtime Environment (build 1.8.0_212-8u212-b01-1~deb9u1-b01)
+OpenJDK 64-Bit Server VM (build 25.212-b01, mixed mode)
+$ 
+
+3. Install Google Chrome browser:
+# curl -sS -o - https://dl-ssl.google.com/linux/linux_signing_key.pub | \
+apt-key add
+OK
+#
+
+# echo "deb [arch=amd64]  http://dl.google.com/linux/chrome/deb/ \
+stable main" >> /etc/apt/sources.list.d/google-chrome.list
+#
+
+# apt-get -y update
+Ign:1 http://dl.google.com/linux/chrome/deb stable InRelease
+Ign:2 http://ftp.us.debian.org/debian stretch InRelease             
+Hit:3 http://dl.google.com/linux/chrome/deb stable Release
+...
+W: Target Translations (main/i18n/Translation-en) is configured \
+multiple times in /etc/apt/sources.list.d/google-chrome.list:3 \
+and /etc/apt/sources.list.d/google-chrome.list:4
+#
+
+# apt-get -y install google-chrome-stable
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+google-chrome-stable is already the newest version (73.0.3683.86-1).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+#
+
+Looks good.
+
 
 Links
 =====
+How to Install Google Chrome on Ubuntu and LinuxMint
+Written by Rahul, Updated on October 18, 2018 
+https://tecadmin.net/install-google-chrome-in-ubuntu/
+
+How to Install Java 8 on Debian 9/8 via PPA
+Written by Rahul, Updated on February 6, 2019
+https://tecadmin.net/install-java-8-on-debian/
+
 How to Setup Selenium with ChromeDriver on Debian 9/8
 Written by Rahul, Updated on August 21, 2018 
 https://tecadmin.net/setup-selenium-with-chromedriver-on-debian/
- 
