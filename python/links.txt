@@ -23,6 +23,12 @@ Python check if website exists - Stack Overflow      <===
 Great site with web page existence checking rules.
 https://stackoverflow.com/questions/16778435/python-check-if-website-exists
 
+Python script header
+#!/usr/bin/env python
+  vs.
+#!/usr/bin/python
+https://stackoverflow.com/questions/3128669/python-script-header
+
 Python Unit Test with unittest
 https://www.codingame.com/playgrounds/10614/python-unit-test-with-unittest
 
