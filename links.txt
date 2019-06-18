@@ -6,10 +6,21 @@ by Raymond E. Marcil <marcilr@gmail.com>
 Selenium related links
 
 
+Plenty of hits for:
+  selenium use with pyunit
+
+
 Lnks
 =====
 Documentation
 https://www.seleniumhq.org/docs/
+
+Platforms Supported by Selenium
+Python
+  Frameworks available: unittest, pyunit, py.test, robot framework
+Ruby
+  Frameworks available: RSpec, Test::Unit
+https://www.seleniumhq.org/about/platforms.jsp#testing-frameworks
 
 Selenium - Web Browser Automation
 https://www.seleniumhq.org/
