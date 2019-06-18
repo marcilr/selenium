@@ -1,0 +1,21 @@
+#
+# links-to-check.txt
+# Created Tue Jun 18 11:08:09 AKDT 2019
+# by Raymond E. Marcil <ray.marcil@alaska.gov>
+#
+# State of Alaska links to check automatedly
+#
+http://int.dnr.alaska.gov
+http://dnr.alaska.gov
+https://dnr.alaska.gov
+http://int.dnr.alaska.gov/projects/las
+
+# Want to do a search on this one:
+http://int.dnr.alaska.gov/ssd/recoff
+
+http://int.dnr.alaska.gov/weblas
+http://dnr.alaska.gov/las
+http://dnr.alaska.gov/ssd/recoff
+http://dnr.alaska.gov/burn
+http://dnr.alaska.gov/mapper
+https://dnr.alaska.gov/ccpayments
