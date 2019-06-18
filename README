@@ -11,6 +11,9 @@ Filelist
 links.txt
   Selenium related links
 
+python/
+  Web page testing using selenium and python
+
 selenium.txt
   Selenium - Web Browser Automation
   https://www.seleniumhq.org/
