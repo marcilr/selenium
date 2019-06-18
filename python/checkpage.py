@@ -15,9 +15,21 @@
 #
 import urllib2
 
-#website='https://www.allyourmusic.com'
+
+# =============
+# Configuration
+# =============
+
+# List of websites to check
+linksToCheckFile="links-to-check.txt"
+
+# Single website to check
 website='https://www.google.com'
 
+
+
+
+"""
 try:
     response = urllib2.urlopen(website)
     if response.code==200:
@@ -30,3 +42,4 @@ except urllib2.HTTPError, e:
 
 except urllib2.URLError, e:
     print(e.args)
+"""
