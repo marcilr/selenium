@@ -1,0 +1,19 @@
+links.txt
+Created Tue Jun 18 10:27:52 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Python related links
+
+
+Links
+=====
+Build A Selenium Python Test Suite From Scratch Using Unittest
+Python Tutorials | By Meenakshi Agarwal
+https://www.techbeamers.com/selenium-python-test-suite-unittest/
+
+Using PyUnit for Testing a Selenium Python Test Suite
+Learn how to use the PyUnit framework for testing the Selenium test suite.
+by Harshit Paul  ·  Jan. 10, 19 · Performance Zone · Tutorial
+https://dzone.com/articles/using-pyunit-for-testing-a-selenium-python-test-su
+
