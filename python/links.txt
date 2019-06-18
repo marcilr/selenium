@@ -6,11 +6,37 @@ Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
 Python related links
 
 
+"python unittest test if webpage exists" <=== Many hits
+
+
 Links
 =====
 Build A Selenium Python Test Suite From Scratch Using Unittest
 Python Tutorials | By Meenakshi Agarwal
 https://www.techbeamers.com/selenium-python-test-suite-unittest/
+
+I use this decorator in unittest modules to verify that a particularly-named object exists:
+kstrauser/gist:1300151
+https://gist.github.com/kstrauser/1300151
+
+Python check if website exists - Stack Overflow      <===
+Great site with web page existence checking rules.
+https://stackoverflow.com/questions/16778435/python-check-if-website-exists
+
+Python Unit Test with unittest
+https://www.codingame.com/playgrounds/10614/python-unit-test-with-unittest
+
+Simple testing in Python
+https://pymbook.readthedocs.io/en/latest/testing.html
+
+Testing Your Code — The Hitchhiker's Guide to Python
+https://docs.python-guide.org/writing/tests/
+
+unittest — List of assrt methods
+https://docs.python.org/3/library/unittest.html#assert-methods
+
+unittest — Unit testing framework
+https://docs.python.org/3/library/unittest.html#module-unittest
 
 Using PyUnit for Testing a Selenium Python Test Suite
 Learn how to use the PyUnit framework for testing the Selenium test suite.
