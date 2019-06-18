@@ -8,6 +8,7 @@
 #
 # Check if web pages exists
 #
+#
 # Links
 # =====
 # How to comment out a block of code in Python [duplicate]
@@ -15,6 +16,9 @@
 #
 # Python check if website exists
 # https://stackoverflow.com/questions/16778435/python-check-if-website-exists
+#
+# Python functions
+# https://www.tutorialspoint.com/python/python_functions.htm
 #
 import urllib2
 
@@ -28,6 +32,21 @@ linksToCheckFile="links-to-check.txt"
 
 # Single website to check
 website='https://www.google.com'
+
+
+# =========
+# Functions
+# =========
+
+
+
+infile = open(linksToCheckFile, "r")
+
+for aline in infile:
+   print(aline)
+
+infile.close()
+
 
 
 
