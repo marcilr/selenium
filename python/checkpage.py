@@ -10,6 +10,9 @@
 #
 # Links
 # =====
+# How to comment out a block of code in Python [duplicate]
+# https://stackoverflow.com/questions/675442/how-to-comment-out-a-block-of-code-in-python
+#
 # Python check if website exists
 # https://stackoverflow.com/questions/16778435/python-check-if-website-exists
 #
