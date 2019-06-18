@@ -28,7 +28,7 @@ website='https://www.google.com'
 
 
 
-
+# Use triple quotes to comment out block:
 """
 try:
     response = urllib2.urlopen(website)
