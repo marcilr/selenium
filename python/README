@@ -5,6 +5,14 @@ by Raymond E. Marcil <marcilr@gmail.com>
 
 Filelist
 ========
+checkpage.py
+  Check if web pages exists
+  --Python check if website exists
+    https://stackoverflow.com/questions/16778435/python-check-if-website-exists
+
+helloworld.py
+  This program prints Hello, world!
+
 links.txt
   Python related links
 
