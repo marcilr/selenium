@@ -43,7 +43,8 @@ website='https://www.google.com'
 infile = open(linksToCheckFile, "r")
 
 for aline in infile:
-   print(aline)
+
+   print(aline),
 
 infile.close()
 
