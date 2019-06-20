@@ -8,3 +8,6 @@ Filelist
 INSTALL
   Installation of selenium on Debian 9.8 amd64
 
+INSTALL-chrome
+  Google Chrome Version 75.0.3770.80 (Official Build) (64-bit)
+  installed under Debian 9.9 amd64
