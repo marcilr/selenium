@@ -47,18 +47,17 @@ as below:
   RemoteWebDriver [8]
   SafariDriver [9]
 
+
 For More information on Selenium WebDriver, please see the
 documentation[10] and Remote Control to WebDriver Migration
 Notes.[11]
 
-
-
 If you want to
-o create robust, browser-based regression
-  automation suites and tests
+  o create robust, browser-based regression
+    automation suites and tests
 
-o scale and distribute scripts across many
-  environments
+  o scale and distribute scripts across many
+    environments
 
 
 Then you want to use Selenium WebDriver; a collection
