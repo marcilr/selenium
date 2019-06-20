@@ -24,3 +24,15 @@ selenium.txt
   Selenium - Web Browser Automation
   https://www.seleniumhq.org/
 
+webdriver/
+  ...a collection of language specific bindings
+  to drive a browser -- the way it is meant to
+  be driven.
+  --seleniumhq.org/
+
+
+Links
+=====
+SeleniumHQ
+Browser Automation
+https://www.seleniumhq.org/
