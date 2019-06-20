@@ -26,11 +26,65 @@ Installation of ChromeDriver for web page existence testing
    --answered Apr 12 '18 at 11:31, Tom
      stackoverflow.com/questions/49788257
 
+2. Download the ChromeDriver binary for your platform
+   under the downloads[1] section of this site
+   
+   --Getting started
+     https://sites.google.com/a/chromium.org/chromedriver/getting-started
+
+   A large number of Chrome version are on the downloads[1] page:
+   If you are using Chrome version 76, please download ChromeDriver 76.0.3809.25 [2]
+   If you are using Chrome version 75, please download ChromeDriver 75.0.3770.90 [3]
+   If you are using Chrome version 74, please download ChromeDriver 74.0.3729.6  [4]
+   If you are using Chrome version 73, please download ChromeDriver 73.0.3683.68 [5]
+
+   For older version of Chrome, please see below for the version of
+   ChromeDriver that supports it.
+
+   If you are using Chrome from Dev or Canary channel, please download
+   ChromeDriver 76.0.3809.25.[6] This is not officially supported, but in
+   most cases it should work without major issues.
+
+   For more information on selecting the right version of ChromeDriver,
+   please see the Version Selection[7] page.
+
+Using google chrome versions
+
+   Version 75.0.3770.80 (Official Build) (64-bit), Debian 9.9.0,
+     /usr/bin/google-chrome -> /etc/alternatives/google-chrome
+     (icon in upper right corner > Help > About Google Chrome)
+
+   Version 75.0.3770.90 (Official Build) (64-bit), Windows 10
+     (triple dots in upper right corner > Help > About Google Chrome)
+
+   Very similar versions of google chrome being used between
+   windows and the penguin.
 
 
 
 Links
 =====
+[1] downloads
+https://sites.google.com/a/chromium.org/chromedriver/downloads
+ 
+[2] ChromeDriver 76.0.3809.25
+https://chromedriver.storage.googleapis.com/index.html?path=76.0.3809.25/
+
+[3] ChromeDriver 75.0.3770.90
+https://chromedriver.storage.googleapis.com/index.html?path=75.0.3770.90/
+
+[4] ChromeDriver 74.0.3729.6
+https://chromedriver.storage.googleapis.com/index.html?path=74.0.3729.6/
+
+[5] ChromeDriver 73.0.3683.68
+https://chromedriver.storage.googleapis.com/index.html?path=73.0.3683.68/
+
+[6] ChromeDriver 76.0.3809.25
+https://chromedriver.storage.googleapis.com/index.html?path=76.0.3809.25/
+
+[7] Version Selection
+https://sites.google.com/a/chromium.org/chromedriver/downloads/version-selection
+
 Capabilities & ChromeOptions
 https://sites.google.com/a/chromium.org/chromedriver/capabilities#TOC-Using-a-Chrome-executable-in-a-non-standard-location
 
