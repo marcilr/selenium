@@ -1,0 +1,32 @@
+chromedriver.txt
+Created Thu Jun 20 14:13:12 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+ChromeDriver
+
+
+WebDriver is an open source tool for automated testing of
+webapps across many browsers.  It provides capabilities for
+navigating to web pages, user input, JavaScript execution,
+and more.  ChromeDriver is a standalone server that implements
+the W3C WebDriver standard[1].  ChromeDriver is available
+for Chrome on Android and Chrome on Desktop (Mac, Linux,
+Windows and ChromeOS).  
+
+You can view the current implementation status of the WebDriver
+standard here.[2]
+--ChromeDriver - WebDriver for Chrome
+  sites.google.com/a/chromium.org/chromedriver/
+
+
+Links
+=====
+[1] W3C WebDriver standard
+https://w3c.github.io/webdriver/webdriver-spec.html
+
+[2] WebDriver standard here
+https://chromium.googlesource.com/chromium/src/+/master/docs/chromedriver_status.md
+
+ChromeDriver - WebDriver for Chrome
+https://sites.google.com/a/chromium.org/chromedriver/
