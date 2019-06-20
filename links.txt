@@ -22,6 +22,11 @@ https://www.seleniumhq.org/selenium-ide/docs/en/introduction/command-line-runner
 Chrome specific capabilities
 https://www.seleniumhq.org/selenium-ide/docs/en/introduction/command-line-runner/#chrome-specific-capabilities
 
+ChromeDriver is supported by the Chromium
+project, please refer to their documentation
+for any compatibility information
+https://sites.google.com/a/chromium.org/chromedriver/
+
 Documentation
 https://www.seleniumhq.org/docs/
 
@@ -30,6 +35,9 @@ Skip to end of metadata
 Created by Phil Gochenour, last modified on Jul 31, 2018
 https://wiki.saucelabs.com/display/DOCS/Getting+Started+with+Selenium+for+Automated+Website+Testing
 
+many browsers
+https://www.seleniumhq.org/about/platforms.jsp#browsers
+
 Platforms Supported by Selenium
 Python
   Frameworks available: unittest, pyunit, py.test, robot framework
@@ -37,11 +45,25 @@ Ruby
   Frameworks available: RSpec, Test::Unit
 https://www.seleniumhq.org/about/platforms.jsp#testing-frameworks
 
+operating systems
+Windows, OS X, Linux (Ubuntu)
+https://www.seleniumhq.org/about/platforms.jsp#operating-systems
+
 Programming Languages & Frameworks
 Programming languages are supported through Selenium "drivers."
 These are libraries made for each language that expose commands
 from the Selenium API natively in the form of methods/functions.
 https://www.seleniumhq.org/about/platforms.jsp#programming-languages
+
+Python
+Frameworks available:
+unittest
+pyunit
+  http://pyunit.sourceforge.net/
+py.test
+  http://pytest.org/latest/
+robot framework
+  http://code.google.com/p/robotframework-seleniumlibrary
 
 Remote Control to WebDriver Migration Notes
 https://www.seleniumhq.org/docs/appendix_migrating_from_rc_to_webdriver.html
