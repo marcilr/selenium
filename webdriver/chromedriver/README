@@ -5,6 +5,9 @@ Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
 
 Filelist
 ========
+00INSTALL/
+  Installation of chromedriver
+
 chromedriver.txt
   ChromeDriver - WebDriver for Chrome
   https://sites.google.com/a/chromium.org/chromedriver/
