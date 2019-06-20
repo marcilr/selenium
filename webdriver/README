@@ -1,0 +1,15 @@
+README
+Created Thu Jun 20 13:43:12 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Filelist
+========
+webdriver.txt
+  Selenium WebDriver
+  ...a collection of language specific bindings 
+  to drive a browser -- the way it is meant to 
+  be driven.
+  --SeleniumHQ
+    Browser Automation
+    https://www.seleniumhq.org/
