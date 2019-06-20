@@ -1,0 +1,59 @@
+links.txt
+Created Thu Jun 20 14:24:08 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+ChromeDriver documentation related links
+
+
+
+Links
+=====
+Chrome Extension installation
+https://sites.google.com/a/chromium.org/chromedriver/extensions
+
+ChromedDriver documenation listed at:
+ChromeDriver - WebDriver for Chrome
+https://sites.google.com/a/chromium.org/chromedriver/
+
+chromedriver-users mailing list for questions,       <===
+help with troubleshooting, and general discussion.
+https://groups.google.com/d/forum/chromedriver-users
+
+ChromeOptions, the capabilities of ChromeDriver
+https://sites.google.com/a/chromium.org/chromedriver/capabilities
+
+Contributing to ChromeDriver
+https://sites.google.com/a/chromium.org/chromedriver/contributing
+
+current implementation status of the WebDriver standard
+https://chromium.googlesource.com/chromium/src/+/master/docs/chromedriver_status.md
+
+Getting started with ChromeDriver on Desktop (Windows, Mac, Linux)
+  https://sites.google.com/a/chromium.org/chromedriver/getting-started
+  o ChromeDriver with Android
+    https://sites.google.com/a/chromium.org/chromedriver/getting-started/getting-started---android
+
+  o ChromeDriver with ChromeOS
+    https://sites.google.com/a/chromium.org/chromedriver/getting-started/chromeos
+
+Guide to our issue tracker and reporting bugs
+https://sites.google.com/a/chromium.org/chromedriver/help
+
+Mobile emulation
+https://sites.google.com/a/chromium.org/chromedriver/mobile-emulation
+
+Security Considerations, with recommendations on keeping ChromeDriver safe
+https://sites.google.com/a/chromium.org/chromedriver/security-considerations
+
+StackOverflow chromedriver posts
+http://stackoverflow.com/questions/tagged/selenium-chromedriver
+
+W3C WebDriver standard
+ChromeDriver is a standalone server that implements
+the W3C WebDriver standard. 
+https://w3c.github.io/webdriver/webdriver-spec.html
+
+Verbose logging and performance data logging
+https://sites.google.com/a/chromium.org/chromedriver/logging
+https://sites.google.com/a/chromium.org/chromedriver/logging/performance-log
