@@ -5,6 +5,15 @@ Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
 
 Filelist
 ========
+chromedriver/
+  WebDriver is an open source tool for automated testing of
+  webapps across many browsers. It provides capabilities
+  for navigating to web pages, user input, JavaScript
+  execution, and more.  ChromeDriver is a standalone server
+  that implements the W3C WebDriver standard[1].
+  ChromeDriver is available for Chrome on Android and
+  Chrome on Desktop (Mac, Linux, Windows and ChromeOS).  
+
 links.txt
   WebDriver related links
 
@@ -16,3 +25,9 @@ webdriver.txt
   --SeleniumHQ
     Browser Automation
     https://www.seleniumhq.org/
+
+
+Links
+=====
+[1] W3C WebDriver standard
+https://w3c.github.io/webdriver/webdriver-spec.html
