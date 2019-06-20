@@ -1,0 +1,195 @@
+getting-started.txt
+Created Thu Jun 20 14:46:12 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Getting started
+
+
+This page documents how to start using ChromeDriver for
+testing your website on desktop (Windows/Mac/Linux). 
+
+You can also read Getting Started with Android[1] or 
+Getting Started with ChromeOS[1]
+
+
+Setup
+=====
+ChromeDriver is a separate executable that WebDriver
+uses to control Chrome.  It is maintained by the Chromium
+team with help from WebDriver contributors.  If you are
+unfamiliar with WebDriver, you should check out their
+own Getting Started[3] page.
+
+Follow these steps to setup your tests for running with ChromeDriver:
+
+o Ensure Chromium/Google Chrome is installed in a recognized location
+
+  ChromeDriver expects you to have Chrome installed in the default
+  location for your platform.  You can also force ChromeDriver to
+  use a custom location[4] by setting a special capability.
+
+o Download the ChromeDriver binary for your platform under the
+  downloads[5] section of this site
+
+o Help WebDriver find the downloaded ChromeDriver executable
+  Any of these steps should do the trick:
+
+  1. include the ChromeDriver location in your PATH environment variable
+
+  2. (Java only) specify its location via the webdriver.chrome.driver
+     system property (see sample below)
+
+  3. (Python only) include the path to ChromeDriver when instantiating
+     webdriver.Chrome (see sample below)
+
+
+Sample test
+===========
+Java:
+
+@Test
+public void testGoogleSearch() {
+  // Optional, if not specified, WebDriver will search your path for chromedriver.
+  System.setProperty("webdriver.chrome.driver", "/path/to/chromedriver");
+
+  WebDriver driver = new ChromeDriver();
+  driver.get("http://www.google.com/xhtml");
+  Thread.sleep(5000);  // Let the user actually see something!
+  WebElement searchBox = driver.findElement(By.name("q"));
+  searchBox.sendKeys("ChromeDriver");
+  searchBox.submit();
+  Thread.sleep(5000);  // Let the user actually see something!
+  driver.quit();
+}
+
+
+Python:
+
+import time
+from selenium import webdriver
+
+driver = webdriver.Chrome('/path/to/chromedriver')  # Optional argument, if not specified will search path.
+driver.get('http://www.google.com/xhtml');
+time.sleep(5) # Let the user actually see something!
+search_box = driver.find_element_by_name('q')
+search_box.send_keys('ChromeDriver')
+search_box.submit()
+time.sleep(5) # Let the user actually see something!
+driver.quit()
+
+
+Controlling ChromeDriver's lifetime
+===================================
+The ChromeDriver class starts the ChromeDriver server process
+at creation and terminates it when quit is called.  This can
+waste a significant amount of time for large test suites where
+a ChromeDriver instance is created per test.  There are two
+options to remedy this:
+
+1. Use the ChromeDriverService.  This is available for most
+languages and allows you to start/stop the ChromeDriver server
+yourself.  See here for a Java example (with JUnit 4):
+
+@RunWith(BlockJUnit4ClassRunner.class)
+public class ChromeTest extends TestCase {
+
+  private static ChromeDriverService service;
+  private WebDriver driver;
+
+  @BeforeClass
+  public static void createAndStartService() {
+    service = new ChromeDriverService.Builder()
+        .usingDriverExecutable(new File("path/to/my/chromedriver"))
+        .usingAnyFreePort()
+        .build();
+    service.start();
+  }
+
+  @AfterClass
+  public static void createAndStopService() {
+    service.stop();
+  }
+
+  @Before
+  public void createDriver() {
+    driver = new RemoteWebDriver(service.getUrl(),
+        DesiredCapabilities.chrome());
+  }
+
+  @After
+  public void quitDriver() {
+    driver.quit();
+  }
+
+  @Test
+  public void testGoogleSearch() {
+    driver.get("http://www.google.com");
+    // rest of the test...
+  }
+}
+
+
+Python:
+
+import time
+
+from selenium import webdriver
+import selenium.webdriver.chrome.service as service
+
+service = service.Service('/path/to/chromedriver')
+service.start()
+capabilities = {'chrome.binary': '/path/to/custom/chrome'}
+driver = webdriver.Remote(service.service_url, capabilities)
+driver.get('http://www.google.com/xhtml');
+time.sleep(5) # Let the user actually see something!
+driver.quit()
+
+
+2. Start the ChromeDriver server separately before running
+your tests, and connect to it using the Remote WebDriver.
+
+
+Terminal:                        <=== Terminal @!%#$
+
+$ ./chromedriver
+Started ChromeDriver
+port=9515
+version=14.0.836.0
+
+
+Java:
+
+WebDriver driver = new RemoteWebDriver("http://127.0.0.1:9515", DesiredCapabilities.chrome());
+driver.get("http://www.google.com");
+
+--ChromeDriver - WebDriver for Chrome
+  Getting started
+  https://sites.google.com/a/chromium.org/chromedriver/getting-started
+
+
+
+
+
+
+Links
+=====
+[1] Getting Started with Android
+https://sites.google.com/a/chromium.org/chromedriver/getting-started/getting-started---android
+
+[2] Getting Started with ChromeOS
+https://sites.google.com/a/chromium.org/chromedriver/getting-started/chromeos
+
+[3] Getting Started
+http://code.google.com/p/selenium/wiki/GettingStarted
+
+[4] force ChromeDriver to use a custom location
+https://sites.google.com/a/chromium.org/chromedriver/capabilities#TOC-Using-a-Chrome-executable-in-a-non-standard-location
+
+[5] downloads
+https://sites.google.com/a/chromium.org/chromedriver/downloads
+
+ChromeDriver - WebDriver for Chrome
+Copied to getting-started.txt
+Getting started 
+https://sites.google.com/a/chromium.org/chromedriver/getting-started
