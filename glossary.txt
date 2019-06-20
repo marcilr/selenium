@@ -20,6 +20,14 @@ Selenium automates browsers.  That's it! What you do with
     tools, APIs and frameworks.
     --seleniumhq.org
 
+WebDriver - a collection of language specific bindings to
+    drive a browser -- the way it is meant to be driven.
+
+    Selenium WebDriver is the successor of Selenium Remote
+    Control which has been officially deprecated.  The
+    Selenium Server (used by both WebDriver and Remote
+    Control) now also includes built-in grid capabilities.
+    --seleniumhq.org
 
 
 
