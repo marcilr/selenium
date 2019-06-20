@@ -6,6 +6,14 @@ by Raymond E. Marcil <marcilr@gmail.com>
 Selenium - Web Browser Automation
 
 
+Selenium looks to be a great tool to drive website browser
+testing for all types of browsers.
+
+For now (June 20, 2019) only interested in using selenium
+to test a list of site to verify if they are up.  Preferable
+with results on a nicely rendered webpage.
+
+
 What is Selenium?
 =================
 Selenium automates browsers.  That's it! What you do with that
