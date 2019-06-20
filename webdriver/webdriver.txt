@@ -6,6 +6,53 @@ Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
 WebDriver
 
 
+The biggest change in Selenium recently has been the inclusion
+of the WebDriver API.  Driving a browser natively as a user
+would either locally or on a remote machine using the Selenium
+Server it marks a leap forward in terms of browser automation.
+
+Selenium WebDriver fits in the same role as RC did, and has
+incorporated the original 1.x bindings. It refers to both the
+language bindings and the implementations of the individual
+browser controlling code.  This is commonly referred to as
+just "WebDriver" or sometimes as Selenium 2.
+
+Selenium 1.0 + WebDriver = Selenium 2.0
+
+  o WebDriver is designed in a simpler and more concise
+    programming interface along with addressing some limitations
+    in the Selenium-RC API.
+
+  o WebDriver is a compact Object Oriented API when compared
+    to Selenium1.0
+
+  o It drives the browser much more effectively and overcomes
+    the limitations of Selenium 1.x which affected our functional
+    test coverage, like the file upload or download, pop-ups and
+    dialogs barrier
+
+  o WebDriver overcomes the limitation of Selenium RC's Single
+    Host origin policy[1]
+
+WebDriver is the name of the key interface against which tests should
+be written in Java, the implementing classes one should use are listed
+as below:
+
+  ChromeDriver [2]
+  EventFiringWebDriver [3]
+  FirefoxDriver [4]
+  HtmlUnitDriver [5]
+  InternetExplorerDriver [6]
+  PhantomJSDriver [7]
+  RemoteWebDriver [8]
+  SafariDriver [9]
+
+For More information on Selenium WebDriver, please see the
+documentation[10] and Remote Control to WebDriver Migration
+Notes.[11]
+
+
+
 If you want to
 o create robust, browser-based regression
   automation suites and tests
@@ -27,6 +74,41 @@ Control) now also includes built-in grid capabilities.
 
 Links
 =====
+[1] Single Host origin policy
+http://en.wikipedia.org/wiki/Same_origin_policy
+
+[2] ChromeDriver
+https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/chrome/ChromeDriver.html
+
+[3] EventFiringWebDriver
+https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/support/events/EventFiringWebDriver.html
+
+[4] FirefoxDriver
+https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/firefox/FirefoxDriver.html
+
+[5] HtmlUnitDriver
+http://seleniumhq.github.io/htmlunit-driver/org/openqa/selenium/htmlunit/HtmlUnitDriver.html
+
+[6] InternetExplorerDriver
+https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/ie/InternetExplorerDriver.html
+
+[7] PhantomJSDriver
+https://github.com/detro/ghostdriver/blob/master/binding/java/src/main/java/org/openqa/selenium/phantomjs/PhantomJSDriver.java
+
+[8] RemoteWebDriver
+https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/remote/RemoteWebDriver.html
+
+[9] SafariDriver
+https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/safari/SafariDriver.html
+
+[10] the documentation
+https://www.seleniumhq.org/docs/03_webdriver.html
+
+[11] Remote Control to WebDriver Migration Notes
+https://www.seleniumhq.org/docs/appendix_migrating_from_rc_to_webdriver.html
+
 Selenium - Web Browser Automation
 https://www.seleniumhq.org/
 
+Selenium WebDriver
+https://www.seleniumhq.org/projects/webdriver/
