@@ -47,15 +47,17 @@ Installation of ChromeDriver for web page existence testing
 
    For more information on selecting the right version of ChromeDriver,
    please see the Version Selection[7] page.
+   --Downloads
+     https://sites.google.com/a/chromium.org/chromedriver/downloads
 
-Using google chrome versions
+   Using google chrome:
+ 
+     Version 75.0.3770.80 (Official Build) (64-bit), Debian 9.9.0,
+       /usr/bin/google-chrome -> /etc/alternatives/google-chrome
+       (icon in upper right corner > Help > About Google Chrome)
 
-   Version 75.0.3770.80 (Official Build) (64-bit), Debian 9.9.0,
-     /usr/bin/google-chrome -> /etc/alternatives/google-chrome
-     (icon in upper right corner > Help > About Google Chrome)
-
-   Version 75.0.3770.90 (Official Build) (64-bit), Windows 10
-     (triple dots in upper right corner > Help > About Google Chrome)
+     Version 75.0.3770.90 (Official Build) (64-bit), Windows 10
+       (triple dots in upper right corner > Help > About Google Chrome)
 
    Very similar versions of google chrome being used between
    windows and the penguin.
@@ -93,8 +95,15 @@ Copied to getting-started.txt
 Getting started
 https://sites.google.com/a/chromium.org/chromedriver/getting-started
 
+Downloads
+https://sites.google.com/a/chromium.org/chromedriver/downloads
+
 force ChromeDriver to use a custom location
 https://sites.google.com/a/chromium.org/chromedriver/capabilities#TOC-Using-a-Chrome-executable-in-a-non-standard-location
+
+How do I determine what version of Google Chrome I'm using?
+Med-Challenger Support
+https://support.chall.com/hc/en-us/articles/200336349-How-do-I-determine-what-version-of-Google-Chrome-I-m-using-
 
 What is default location of ChromeDriver and for installing Chrome on Windows
 https://stackoverflow.com/questions/49788257/what-is-default-location-of-chromedriver-and-for-installing-chrome-on-windows
