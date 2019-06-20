@@ -13,6 +13,17 @@ For now (June 20, 2019) only interested in using selenium
 to test a list of site to verify if they are up.  Preferable
 with results on a nicely rendered webpage.
 
+Selenium's chromedriver, a webdriver implementation, can 
+have tests implemented in java or python.  Prefer the latter
+and need to determine the details.
+
+The chromedriver getting started page indeed shows a test
+implemented in Python.  Yeh hah.
+ 
+--Getting started
+  sites.google.com/a/chromium.org/chromedriver/getting-started
+
+
 
 What is Selenium?
 =================
@@ -84,6 +95,12 @@ WebDriver and Selenium community on August 6, 2009.
 
 Links
 =====
+Getting started
+https://sites.google.com/a/chromium.org/chromedriver/getting-started
+
+Introduction
+Test Automation for Web Applications
+https://www.seleniumhq.org/docs/01_introducing_selenium.jsp
+
 Selenium - Web Browser Automation
 https://www.seleniumhq.org/
-
