@@ -1,0 +1,20 @@
+links.txt
+Created Thu Jun 20 13:44:49 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+WebDriver related links
+
+
+Links
+=====
+Selenium Remote Control 
+The predecessor to WebDriver
+https://www.seleniumhq.org/projects/remote-control/
+
+SeleniumHQ
+Browser Automation
+https://www.seleniumhq.org/
+
+Selenium WebDriver
+https://www.seleniumhq.org/projects/webdriver/
