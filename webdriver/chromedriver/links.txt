@@ -1,0 +1,30 @@
+links.txt
+Created Thu Jun 20 14:17:33 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+ChromeDriver related links
+
+
+Links
+=====
+ChromeDriver - WebDriver for Chrome
+WebDriver is an open source tool for automated
+testing of webapps across many browsers.  It
+provides capabilities for navigating to web
+pages, user input, JavaScript execution, and
+more. 
+https://sites.google.com/a/chromium.org/chromedriver/
+
+current implementation status of the WebDriver standard
+https://chromium.googlesource.com/chromium/src/+/master/docs/chromedriver_status.md
+
+Downloads
+Latest stable release: ChromeDriver 75.0.3770.90
+  https://chromedriver.storage.googleapis.com/index.html?path=75.0.3770.90/
+Latest beta release: ChromeDriver 76.0.3809.25
+  https://chromedriver.storage.googleapis.com/index.html?path=76.0.3809.25/
+https://sites.google.com/a/chromium.org/chromedriver/downloads
+
+W3C WebDriver standard
+https://w3c.github.io/webdriver/webdriver-spec.html
