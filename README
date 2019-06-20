@@ -25,6 +25,7 @@ selenium.txt
   https://www.seleniumhq.org/
 
 webdriver/
+  Web Driver API
   ...a collection of language specific bindings
   to drive a browser -- the way it is meant to
   be driven.
