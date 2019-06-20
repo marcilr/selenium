@@ -6,11 +6,41 @@ Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
 Installation of ChromeDriver for web page existence testing
 
 
+1. Ensure Chromium/Google Chrome is installed in a
+   recognized location
+   --Getting started
+     https://sites.google.com/a/chromium.org/chromedriver/getting-started
+
+   "For any driver that Selenium must use to open
+   the browser (chromedriver, geckodriver, etc),
+   you don't have to worry about where it is installed,
+   as long as it's set in the PATH variable.
+   ...
+   Then you can just instantiate it as follows:
+
+   WebDriver driver = new FirefoxDriver();
+     OR
+
+   WebDriver driver = new ChromeDriver();"
+
+   --answered Apr 12 '18 at 11:31, Tom
+     stackoverflow.com/questions/49788257
+
+
+
 
 Links
 =====
+Capabilities & ChromeOptions
+https://sites.google.com/a/chromium.org/chromedriver/capabilities#TOC-Using-a-Chrome-executable-in-a-non-standard-location
+
 ChromeDriver - WebDriver for Chrome
 Copied to getting-started.txt
 Getting started
 https://sites.google.com/a/chromium.org/chromedriver/getting-started
 
+force ChromeDriver to use a custom location
+https://sites.google.com/a/chromium.org/chromedriver/capabilities#TOC-Using-a-Chrome-executable-in-a-non-standard-location
+
+What is default location of ChromeDriver and for installing Chrome on Windows
+https://stackoverflow.com/questions/49788257/what-is-default-location-of-chromedriver-and-for-installing-chrome-on-windows
