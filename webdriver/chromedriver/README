@@ -9,5 +9,11 @@ chromedriver.txt
   ChromeDriver - WebDriver for Chrome
   https://sites.google.com/a/chromium.org/chromedriver/
 
+docs/
+  ChromedDriver documenation
+  listed at:
+    ChromeDriver - WebDriver for Chrome
+    https://sites.google.com/a/chromium.org/chromedriver/
+
 links.txt
   ChromeDriver related links
