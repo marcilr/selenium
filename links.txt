@@ -12,8 +12,23 @@ Plenty of hits for:
 
 Lnks
 =====
+Command-line Runner
+You can now run all of your Selenium IDE tests on
+any browser, in parallel, and on a Grid without needing
+to write any code.
+Some good code on this page
+https://www.seleniumhq.org/selenium-ide/docs/en/introduction/command-line-runner/
+
+Chrome specific capabilities
+https://www.seleniumhq.org/selenium-ide/docs/en/introduction/command-line-runner/#chrome-specific-capabilities
+
 Documentation
 https://www.seleniumhq.org/docs/
+
+Getting Started with Selenium for Automated Website Testing
+Skip to end of metadata
+Created by Phil Gochenour, last modified on Jul 31, 2018
+https://wiki.saucelabs.com/display/DOCS/Getting+Started+with+Selenium+for+Automated+Website+Testing
 
 Platforms Supported by Selenium
 Python
@@ -22,8 +37,33 @@ Ruby
   Frameworks available: RSpec, Test::Unit
 https://www.seleniumhq.org/about/platforms.jsp#testing-frameworks
 
+Programming Languages & Frameworks
+Programming languages are supported through Selenium "drivers."
+These are libraries made for each language that expose commands
+from the Selenium API natively in the form of methods/functions.
+https://www.seleniumhq.org/about/platforms.jsp#programming-languages
+
+Selenium API client drivers
+Java, C#, Ruby, Python, JavaScript (node)
+https://www.seleniumhq.org/download/#client-drivers
+
+SeleniumHQ
+Browser Automation
+https://www.seleniumhq.org/
+
+SeleniumHQ Downloads
+https://www.seleniumhq.org/download/#client-drivers
+
+Selenium IDE    <===
+Open source record and playback test automation for the web
+https://www.seleniumhq.org/selenium-ide/
+
 Selenium - Web Browser Automation
 https://www.seleniumhq.org/
 
 Test Automation for Web Applications
 https://www.seleniumhq.org/docs/01_introducing_selenium.jsp
+
+The Good and the Bad of Selenium Test Automation Tool
+Sep 12, 2018
+https://www.altexsoft.com/blog/engineering/the-good-and-the-bad-of-selenium-test-automation-tool/
