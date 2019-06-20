@@ -11,6 +11,9 @@ Filelist
 links.txt
   Selenium related links
 
+packages.txt
+  Debian stretch 9.9 packages
+
 python/
   Web page testing using selenium and python
 
