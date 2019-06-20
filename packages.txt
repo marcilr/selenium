@@ -1,0 +1,13 @@
+packages.txt
+Created Thu Jun 20 13:19:07 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Debian stretch 9.9 packages
+
+
+chromium-driver - web browser - WebDriver support
+libtest-www-selenium-perl - Perl test framework using Selenium Remote Control
+python-selenium - Python bindings for Selenium
+python3-selenium - Python3 bindings for Selenium
+
