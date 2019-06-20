@@ -1,0 +1,32 @@
+webdriver.txt
+Created Thu Jun 20 13:39:50 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+WebDriver
+
+
+If you want to
+o create robust, browser-based regression
+  automation suites and tests
+
+o scale and distribute scripts across many
+  environments
+
+
+Then you want to use Selenium WebDriver; a collection
+of language specific bindings to drive a browser --
+the way it is meant to be driven.
+
+Selenium WebDriver is the successor of Selenium Remote
+Control which has been officially deprecated.  The
+Selenium Server (used by both WebDriver and Remote
+Control) now also includes built-in grid capabilities.
+--seleniumhq.org/
+
+
+Links
+=====
+Selenium - Web Browser Automation
+https://www.seleniumhq.org/
+
