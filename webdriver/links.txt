@@ -18,3 +18,6 @@ https://www.seleniumhq.org/
 
 Selenium WebDriver
 https://www.seleniumhq.org/projects/webdriver/
+
+W3C WebDriver standard
+https://w3c.github.io/webdriver/webdriver-spec.html
