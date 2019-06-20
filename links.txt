@@ -61,6 +61,9 @@ https://www.seleniumhq.org/selenium-ide/
 Selenium - Web Browser Automation
 https://www.seleniumhq.org/
 
+Selenium Documentation — Selenium Documentation   <=== Good docs
+https://www.seleniumhq.org/docs/
+
 Test Automation for Web Applications
 https://www.seleniumhq.org/docs/01_introducing_selenium.jsp
 
