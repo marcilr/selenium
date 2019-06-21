@@ -46,6 +46,9 @@ unittest-test2.py
   To: 
     self.browser = webdriver.Chrome('/usr/local/bin/chromedriver')
 
+urls.txt
+  SOA URLS to check for existence
+
 webdriver-test1.py
   Initial webdriver chromedriver test
 
