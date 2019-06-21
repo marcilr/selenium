@@ -59,8 +59,23 @@ Installation of ChromeDriver for web page existence testing
        (triple dots in upper right corner > Help > About Google Chrome)
 
    Using google chrome 75.0.3770.x under both the penguin and windows.    <===
+   This means ChromeDriver 75.0.3770.90 [3]
 
+   Download:
+   file:          chromedriver_linux64.zip
+   last modified: 2019-06-13 21:21:15
+   size:          4.90MB
+   etag:          5cebc8cdd79bba758f8975e72b3a28f0
+   https://chromedriver.storage.googleapis.com/index.html?path=75.0.3770.90/\
+     chromedriver_linux64.zip
 
+   $ md5sum chromedriver_linux64.zip 
+   5cebc8cdd79bba758f8975e72b3a28f0  chromedriver_linux64.zip
+   $
+
+   Download looks good.
+  
+  
 
 Links
 =====
