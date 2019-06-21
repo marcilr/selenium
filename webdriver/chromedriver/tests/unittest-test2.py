@@ -32,11 +32,16 @@ class GoogleTestCase(unittest.TestCase):
         self.assertIn('Google', self.browser.title)
 
         with open("urls.txt", "r") as ifile:
-            for line in ifile:
-                if not line.strip():
-                    break
-                else:
-                    print line,
+            line = ifile.readline()
+            while line:
+                print line,
+                line = ifile.readline()
+
+#            for line in ifile:
+#                if not line.strip():
+#                    break
+#                else:
+#                    print line,
 
 #
 # Loop over lines of file
