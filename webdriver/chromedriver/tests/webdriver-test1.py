@@ -47,15 +47,12 @@
 # ChromeDriver - WebDriver for Chrome
 # https://sites.google.com/a/chromium.org/chromedriver/getting-started
 #
-print("webdriver - test 1")
-
-
-pip install -U selenium 
-
 import time
 
 from selenium import webdriver
 import selenium.webdriver.chrome.service as service
+
+print("webdriver - test 1")
 
 service = service.Service('/path/to/chromedriver')
 service.start()
