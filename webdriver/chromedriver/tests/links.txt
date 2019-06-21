@@ -10,4 +10,5 @@ Links
 =====
 Build A Selenium Python Test Suite From Scratch Using Unittest
 Python Tutorials | By Meenakshi Agarwal
+Has many fine required details
 https://www.techbeamers.com/selenium-python-test-suite-unittest/
