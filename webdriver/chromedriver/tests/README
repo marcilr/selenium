@@ -8,5 +8,9 @@ Filelist
 helloworld.py
   Hello World!
 
-test1.py
-  First webdriver test
+test1-output.txt
+  Initial output from webdriver-test1.py
+
+webdriver-test1.py
+  Initial webdriver chromedriver test
+
