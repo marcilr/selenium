@@ -8,6 +8,9 @@ Filelist
 helloworld.py
   Hello World!
 
+pip-install.txt
+  Installation of pip (Python package installer)
+
 test1-output.txt
   Initial output from webdriver-test1.py
 
