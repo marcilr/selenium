@@ -11,6 +11,13 @@ helloworld.py
 pip-install.txt
   Installation of pip (Python package installer)
 
+  pip is a package-management system used to install and
+  manage software packages written in Python.  Many packages
+  can be found in the default source for packages and their
+  dependencies — Python Package Index (PyPI).   
+  --https://en.wikipedia.org/wiki/Pip_(package_manager)#cite_note-pip-docs-4
+    https://sites.google.com/a/chromium.org/chromedriver/getting-started
+
 test1-output.txt
   Initial output from webdriver-test1.py
 
