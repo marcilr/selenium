@@ -3,11 +3,18 @@
 # Created Fri Jun 21 09:18:52 AKDT 2019
 # Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
 #
+#
+# WebDriver ChromeDriver web page existence check
+#
+#
+# Fri Jun 21 09:18:52 AKDT 2019
+# =============================
 # 1. Install pip (Python package installer)
 #    aptitude install python-pip
 #    see: pip-install.txt
 #
-# 2. Install selenium
+# 2. Install selenium:
+#    pip install selenium
 #
 # 3. Start the ChromeDriver server separately before running
 #    your tests, and connect to it using the Remote WebDriver.
