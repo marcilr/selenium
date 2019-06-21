@@ -5,6 +5,21 @@ Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
 
 Installation of pip (Python package installer)
 
+
+pip is a package-management system used to install and 
+manage software packages written in Python.  Many packages
+can be found in the default source for packages and their
+dependencies — Python Package Index (PyPI).[1]
+
+Python 2.7.9 and later (on the python2 series), and 
+Python 3.4 and later include pip (pip3 for Python 3) 
+by default.[2]
+
+pip is a recursive acronym for "Pip Installs Packages".[3]
+
+--pip (package manager)
+  https://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Pride_2019
+
 1. Get python version:
 $ python --version
 Python 2.7.13   <=== i.e. Not python 3.x
@@ -139,7 +154,19 @@ driver.quit()
 
 Links
 =====
+[1] "pip documentation". The pip developers. Retrieved 5 January 2012.
+http://www.pip-installer.org/
+
+[2] "pip installation". Retrieved 24 February 2015.
+https://pip.pypa.io/en/latest/installing.html
+
+[3] "Oldest version of pip on pypi". Retrieved 28 June 2018.
+https://pypi.org/project/pip/0.2/
+
 Getting started
 ChromeDriver - WebDriver for Chrome
 https://sites.google.com/a/chromium.org/chromedriver/getting-started
 
+pip (package manager)
+From Wikipedia, the free encyclopedia
+https://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Pride_2019
