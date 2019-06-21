@@ -75,6 +75,34 @@ Setting up python-cryptography (1.7.1-3+deb9u1) ...
 Setting up python-secretstorage (2.3.1-2) ...
 Setting up python-keyring (10.1-1) ...
 
+#
+
+Verify python-pip installation:
+$ dpkg -l | grep python-pip
+ii  python-pip       9.0.1-2+deb9u1   all   Python package installer
+ii  python-pip-whl   9.0.1-2+deb9u1   all   Python package installer
+$
+
+$ type pip
+pip is /usr/bin/pip
+$
+
+$ pip --version
+pip 9.0.1 from /usr/lib/python2.7/dist-packages (python 2.7)
+$
+
+$ pip -help
+
+Usage:   
+  pip <command> [options]
+
+Commands:
+  install                     Install packages.
+  download                    Download packages.
+  uninstall                   Uninstall packages.
+  ...
+$
+
 Python pip installation looks good
 
 1. Start the ChromeDriver server separately before running
