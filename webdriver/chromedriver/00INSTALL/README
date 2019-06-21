@@ -16,3 +16,8 @@ INSTALL
 
 links.txt
   Installation related links
+
+notes.txt
+  Notes for GoogleChromesdriver
+  https://chromedriver.storage.googleapis.com/index.html?path=75.0.3770.90/
+  https://chromedriver.storage.googleapis.com/75.0.3770.90/notes.txt
