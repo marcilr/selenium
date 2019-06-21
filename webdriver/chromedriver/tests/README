@@ -22,6 +22,11 @@ pip-install.txt
   --https://en.wikipedia.org/wiki/Pip_(package_manager)#cite_note-pip-docs-4
     https://sites.google.com/a/chromium.org/chromedriver/getting-started
 
+selenium.txt
+  selenium - Python language bindings for Selenium WebDriver
+  The selenium package is used to automate web browser interaction from Python.
+  --https://pypi.org/project/selenium/
+
 test1-output.txt
   Initial output from webdriver-test1.py
 
