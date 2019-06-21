@@ -22,7 +22,7 @@
 # ChromeDriver - WebDriver for Chrome
 # https://sites.google.com/a/chromium.org/chromedriver/getting-started
 #
-print("Test 1")
+print("webdriver - test 1")
 
 import time
 
