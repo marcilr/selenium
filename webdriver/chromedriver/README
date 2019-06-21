@@ -20,3 +20,6 @@ docs/
 
 links.txt
   ChromeDriver related links
+
+tests/
+  ChromeDrive tests
