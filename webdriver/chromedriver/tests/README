@@ -30,6 +30,19 @@ selenium.txt
 test1-output.txt
   Initial output from webdriver-test1.py
 
+unittest-test2.py
+  Web pages existence unittest web page test code from:
+    Getting started 
+    ChromeDriver - WebDriver for Chrome
+    https://sites.google.com/a/chromium.org/chromedriver/getting-started
+
+  Added comments to header
+
+  Updated:
+    self.browser = webdriver.Firefox()
+  To: 
+    self.browser = webdriver.Chrome('/usr/local/bin/chromedriver')
+
 webdriver-test1.py
   Initial webdriver chromedriver test
 
