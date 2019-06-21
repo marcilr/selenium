@@ -74,8 +74,51 @@ Installation of ChromeDriver for web page existence testing
    $
 
    Download looks good.
-  
-  
+
+3. Install downloaded chromedriver_linux64.zip
+   $ cd ~/Doadloads
+   $ $ unzip chromedriver_linux64.zip 
+   Archive:  chromedriver_linux64.zip
+   inflating: chromedriver            
+   $ 
+
+   The chromedriver linux download only contains the chromedriver binary:
+   $ file chromedriver
+   chromedriver: ELF 64-bit LSB shared object, x86-64, \
+   version 1 (SYSV), dynamically linked, \
+   interpreter /lib64/ld-linux-x86-64.so.2, \
+   for GNU/Linux 3.2.0, \
+   BuildID[sha1]=1722002ea54b9d07dafa6884d7976f59d7b683a6, \
+   stripped
+   $
+
+   Copy chromedriver into PATH.  On Debian 9.9.0 this includes:
+   $ echo $PATH
+   /home/remarcil/bin:\
+   /usr/local/bin:\
+   /usr/local/bin:\
+   /usr/bin:/bin:\
+   /usr/local/games:\
+   /usr/games
+   $
+
+   i.e. The typicall /usr/local/bin/ directory should be good:
+
+   $ cd ~/Downloads/
+   # cp chromedriver /usr/local/bin/
+   # chown remarcil:staff /usr/local/bin/chromedriver
+
+   $ type chromedriver
+   chromedriver is /usr/local/bin/chromedriver
+   $
+
+   $ chromedriver --version
+   ChromeDriver 75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-\
+   refs/branch-heads/3770@{#1003})
+   $
+
+   chromedriver installation is good
+   
 
 Links
 =====
