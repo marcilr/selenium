@@ -56,7 +56,7 @@ print("webdriver - test 1")
 
 service = service.Service('/usr/local/bin/chromedriver')
 service.start()
-capabilities = {'chrome.binary': '/path/to/custom/chrome'}
+capabilities = {'chrome.binary': '/usr/bin/google-chrome'}
 driver = webdriver.Remote(service.service_url, capabilities)
 driver.get('http://www.google.com/xhtml');
 time.sleep(5) # Let the user actually see something!
