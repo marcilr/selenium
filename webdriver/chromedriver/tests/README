@@ -8,6 +8,10 @@ Filelist
 helloworld.py
   Hello World!
 
+pip.txt
+  pip - Python Package Index
+  https://pypi.org/
+
 pip-install.txt
   Installation of pip (Python package installer)
 
