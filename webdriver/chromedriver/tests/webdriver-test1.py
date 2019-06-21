@@ -3,7 +3,13 @@
 # Created Fri Jun 21 09:18:52 AKDT 2019
 # Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
 #
-# 1. Start the ChromeDriver server separately before running
+# 1. Install pip (Python package installer)
+#    aptitude install python-pip
+#    see: pip-install.txt
+#
+# 2. Install selenium
+#
+# 3. Start the ChromeDriver server separately before running
 #    your tests, and connect to it using the Remote WebDriver.
 #
 #    $ cd /usr/local/bin
@@ -14,6 +20,10 @@
 #    Please protect ports used by ChromeDriver and related \
 #    test frameworks to prevent access by malicious code.
 #
+#
+# print("webdriver - test 1")
+#
+# pip install -U selenium
 #
 # Links
 # =====
