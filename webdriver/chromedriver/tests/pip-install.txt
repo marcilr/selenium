@@ -77,7 +77,8 @@ Setting up python-keyring (10.1-1) ...
 
 #
 
-Verify python-pip installation:
+3. Verify python-pip installation:
+
 $ dpkg -l | grep python-pip
 ii  python-pip       9.0.1-2+deb9u1   all   Python package installer
 ii  python-pip-whl   9.0.1-2+deb9u1   all   Python package installer
@@ -103,7 +104,8 @@ Commands:
   ...
 $
 
-Python pip installation looks good
+Python pip installation looks good!
+
 
 1. Start the ChromeDriver server separately before running
    your tests, and connect to it using the Remote WebDriver.
