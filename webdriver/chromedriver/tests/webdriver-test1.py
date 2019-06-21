@@ -6,6 +6,9 @@
 #
 # WebDriver ChromeDriver web page existence check
 #
+# This opens a chrome window for 5 seconds to:
+#    https://www.google.com/webhp?gws_rd=ssl
+#
 #
 # Fri Jun 21 13:56:01 AKDT 2019
 # =============================
@@ -36,10 +39,6 @@
 #    Please protect ports used by ChromeDriver and related \
 #    test frameworks to prevent access by malicious code.
 #
-#
-# print("webdriver - test 1")
-#
-# pip install -U selenium
 #
 # Links
 # =====
