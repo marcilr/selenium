@@ -27,9 +27,29 @@ class GoogleTestCase(unittest.TestCase):
         self.addCleanup(self.browser.quit)
 
     def testPageTitle(self):
+#        self.browser.get('http://foo.bar.baz.com')
         self.browser.get('http://www.google.com')
         self.assertIn('Google', self.browser.title)
 
+        with open("urls.txt", "r") as ifile:
+            for line in ifile:
+                if not line.strip():
+                    break
+                else:
+                    print line,
+
+#
+# Loop over lines of file
+#
+# Python loop through a text file reading data
+# https://stackoverflow.com/questions/17436709/python-loop-through-a-text-file-reading-data
+#
+#def dat_fun(self):
+#    with open("inpfile.txt", "r") as ifile:
+#        for line in ifile:
+#            if not line.strip():
+#                break
+#            yield line
+
 if __name__ == '__main__':
     unittest.main(verbosity=2)
-
