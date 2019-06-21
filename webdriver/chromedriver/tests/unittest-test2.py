@@ -36,6 +36,10 @@ class GoogleTestCase(unittest.TestCase):
             while line:
                 print line,
                 line = ifile.readline()
+                if line.startswith('#'):
+                    print "Hit!"
+                else:
+                    print "Miss."
 
 #            for line in ifile:
 #                if not line.strip():
