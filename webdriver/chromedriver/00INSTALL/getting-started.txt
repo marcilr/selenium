@@ -46,8 +46,9 @@ o Help WebDriver find the downloaded ChromeDriver executable
 
 Sample test
 ===========
-Java:
 
+Java:
+----
 @Test
 public void testGoogleSearch() {
   // Optional, if not specified, WebDriver will search your path for chromedriver.
@@ -65,7 +66,7 @@ public void testGoogleSearch() {
 
 
 Python:
-
+------
 import time
 from selenium import webdriver
 
