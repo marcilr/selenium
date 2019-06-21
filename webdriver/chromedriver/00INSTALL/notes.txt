@@ -1,0 +1,16 @@
+---------ChromeDriver 75.0.3770.90 (2019-06-13)---------
+Supports Chrome version 75
+Resolved issue 2943: goog:chromeOptions.w3c=false doesn't work for POST request with empty body [Pri-1]
+Resolved issue 2947: No W3C compliant endpoints for retrieving logs [Pri-2]
+Resolved issue 2622: Clear Element command raises blur event twice [Pri-2]
+Resolved issue 2803: Capability name loggingPrefs is not spec compliant [Pri-2]
+Resolved issue 2536: Make standards mode (goog:chromeOptions.w3c:true) the default [Pri-2]
+Resolved issue 2836: Error handling in W3C mode [Pri-2]
+Resolved issue 2414: Creating cookies without leading dot in the domain results in host-only cookies [Pri-2]
+Resolved issue 2796: ChromeDriver should allow null for script timeout [Pri-2]
+Resolved issue 2721: Element Send Keys to file input with 'multiple' attribute should append file list [Pri-3]
+Resolved issue 2850: Get Active Element should return "no such element" error when no active element exists [Pri-3]
+Resolved issue 2851: Navigate to malformed URL should raise "invalid argument" error [Pri-3]
+Resolved issue 2857: ChromeDriver returns wrong HTTP status code when invalid session id is received [Pri-3]
+Resolved issue 2719: When input parameter is missing or malformed, ChromeDriver response is not spec compliant [Pri-3]
+Resolved issue 2746: Execute Script does not handle line-oriented JavaScript comment [Pri-3]
