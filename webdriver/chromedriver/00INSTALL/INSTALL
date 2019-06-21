@@ -20,7 +20,6 @@ Installation of ChromeDriver for web page existence testing
 
    WebDriver driver = new FirefoxDriver();
      OR
-
    WebDriver driver = new ChromeDriver();"
 
    --answered Apr 12 '18 at 11:31, Tom
@@ -52,15 +51,15 @@ Installation of ChromeDriver for web page existence testing
 
    Using google chrome:
  
-     Version 75.0.3770.80 (Official Build) (64-bit), Debian 9.9.0,
+     Version 75.0.3770.80 (Official Build) (64-bit), Debian 9.9.0,        <===
        /usr/bin/google-chrome -> /etc/alternatives/google-chrome
        (icon in upper right corner > Help > About Google Chrome)
 
-     Version 75.0.3770.90 (Official Build) (64-bit), Windows 10
+     Version 75.0.3770.90 (Official Build) (64-bit), Windows 10           <===
        (triple dots in upper right corner > Help > About Google Chrome)
 
-   Very similar versions of google chrome being used between
-   windows and the penguin.
+   Using google chrome 75.0.3770.x under
+   both the penguin and windows.
 
 
 
