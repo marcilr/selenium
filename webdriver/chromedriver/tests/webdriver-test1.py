@@ -7,14 +7,23 @@
 # WebDriver ChromeDriver web page existence check
 #
 #
-# Fri Jun 21 09:18:52 AKDT 2019
+# Fri Jun 21 13:56:01 AKDT 2019
 # =============================
 # 1. Install pip (Python package installer)
 #    aptitude install python-pip
 #    see: pip-install.txt
 #
-# 2. Install selenium:
-#    pip install selenium
+# 2. Install selenium on Debian 9.9.0 vm:
+#    # pip install -U selenium
+#    Collecting selenium
+#    Using cached https://files.pythonhosted.org/packages/80/d6/\
+#    4294f0b4bce4de0abf13e17190289f9d0613b0a44e5dd6a7f5ca98459853/\
+#    selenium-3.141.0-py2.py3-none-any.whl
+#    Requirement already up-to-date: urllib3 in \
+#    /usr/local/lib/python2.7/dist-packages (from selenium)
+#    Installing collected packages: selenium
+#    Successfully installed selenium-3.141.0
+#    #
 #
 # 3. Start the ChromeDriver server separately before running
 #    your tests, and connect to it using the Remote WebDriver.
