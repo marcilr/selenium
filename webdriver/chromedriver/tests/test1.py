@@ -3,6 +3,19 @@
 # Created Fri Jun 21 09:18:52 AKDT 2019
 # Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
 #
+# Usage:
+# 1. Start the ChromeDriver server separately before running
+#    your tests, and connect to it using the Remote WebDriver.
+#
+#    $ cd /usr/local/bin
+#    ./chromedriver
+#    Starting ChromeDriver 75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e\
+#    8149475c6590e025-refs/branch-heads/3770@{#1003}) on port 9515
+#    Only local connections are allowed.
+#    Please protect ports used by ChromeDriver and related \
+#    test frameworks to prevent access by malicious code.
+#
+#
 # Links
 # =====
 # Getting started
