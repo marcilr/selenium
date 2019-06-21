@@ -54,7 +54,7 @@ import selenium.webdriver.chrome.service as service
 
 print("webdriver - test 1")
 
-service = service.Service('/path/to/chromedriver')
+service = service.Service('/usr/local/bin/chromedriver')
 service.start()
 capabilities = {'chrome.binary': '/path/to/custom/chrome'}
 driver = webdriver.Remote(service.service_url, capabilities)
