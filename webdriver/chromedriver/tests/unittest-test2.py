@@ -31,15 +31,15 @@ class GoogleTestCase(unittest.TestCase):
         self.browser.get('http://www.google.com')
         self.assertIn('Google', self.browser.title)
 
-        with open("urls.txt", "r") as ifile:
-            line = ifile.readline()
-            while line:
-                print line,
-                line = ifile.readline()
-                if line.startswith('#'):
-                    print "Hit!"
-                else:
-                    print "Miss."
+#        with open("urls.txt", "r") as ifile:
+#            line = ifile.readline()
+#            while line:
+#                print line,
+#                line = ifile.readline()
+#                if line.startswith('#'):
+#                    print "Hit!"
+#                else:
+#                    print "Miss."
 
 #            for line in ifile:
 #                if not line.strip():
