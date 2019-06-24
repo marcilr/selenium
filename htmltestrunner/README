@@ -1,0 +1,24 @@
+README
+Created Mon Jun 24 09:14:46 AKDT 2019
+by Raymond E. Marcil <ray.marcil@alaska.gov>
+
+
+Filelist
+========
+htmltestrunner.txt
+  HTMLTestRunner
+
+  "By default, the Python Unittest library emits the test output
+  on the terminal console.  If you want to share the results with
+  management and stakeholders, then sending console logs isn’t
+  the appropriate way.
+
+  So you need to generate a report which looks presentable and
+  professional.  A summary report formatted nicely, with
+  drill-down access to the details is what required.
+
+  Since the unit test library doesn’t have the ability to produce
+  such a report, so you should use the HTMLTestRunner extension."
+
+  --Generate HTML Test Suite Execution Report
+    https://www.techbeamers.com/selenium-python-test-suite-unittest/#h2.3
