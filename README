@@ -11,6 +11,10 @@ Filelist
 glossary.txt
   Glossary for selenium
 
+htmltestrunner/
+  HTMLTestRunner used to save selenium results as webpage.
+  https://www.techbeamers.com/selenium-python-test-suite-unittest/#h2.3
+
 links.txt
   Selenium related links
 
