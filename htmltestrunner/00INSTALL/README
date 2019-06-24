@@ -5,6 +5,11 @@ by Raymond E. Marcil <ray.marcil@alaska.gov>
 
 Filelist
 ========
+HTMLTestRunner.py
+  HTMLTestRunner
+  http://tungwaiyip.info/software/HTMLTestRunner.html
+  http://tungwaiyip.info/software/HTMLTestRunner_0_8_2/HTMLTestRunner.py
+
 INSTALL
   Installation of HTMLTestRunner
   --Generate HTML Test Suite Execution Report
