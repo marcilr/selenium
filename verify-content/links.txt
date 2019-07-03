@@ -1,0 +1,43 @@
+links.txt
+Created Wed Jul  3 08:14:15 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Verify content related links
+
+
+Links
+=====
+How can I automate a website using selenium WebDriver?
+https://www.quora.com/How-can-I-automate-a-website-using-selenium-WebDriver
+
+How can we verify if link is exist using selenium WebDriver?
+https://www.quora.com/How-can-we-verify-if-link-is-exist-using-selenium-WebDriver
+
+How do I verify the changing images in a website using Selenium WebDriver?
+https://www.quora.com/How-do-I-verify-the-changing-images-in-a-website-using-Selenium-WebDriver
+
+How do I find element by text in Selenium Webdriver?
+https://www.quora.com/How-do-I-find-element-by-text-in-Selenium-Webdriver
+
+How do I find an element that contains specific text
+in Selenium Webdriver (Python)?
+https://www.quora.com/How-do-I-find-an-element-that-contains-specific-text-in-Selenium-Webdriver-Python
+
+How do I get text for a disabled input field box using Selenium WebDriver?
+https://www.quora.com/How-do-I-get-text-for-a-disabled-input-field-box-using-Selenium-WebDriver
+
+How do I use assert and verify in Selenium WebDriver?
+https://www.quora.com/How-do-I-use-assert-and-verify-in-Selenium-WebDriver
+
+How do I validate a page in Selenium WebDriver?
+https://www.quora.com/How-do-I-validate-a-page-in-Selenium-WebDriver
+
+How do we verify text present on the webpage in Selenium WebDriver?
+https://www.quora.com/How-do-we-verify-text-present-on-the-webpage-in-Selenium-WebDriver
+
+How would we select any particular text using the Selenium WebDriver?
+https://www.quora.com/How-would-we-select-any-particular-text-using-the-Selenium-WebDriver
+
+What is the difference between WebDriver and RemoteWebDriver in Selenium?
+https://www.quora.com/What-is-the-difference-between-WebDriver-and-RemoteWebDriver-in-Selenium
