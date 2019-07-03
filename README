@@ -35,6 +35,9 @@ webdriver/
   be driven.
   --seleniumhq.org/
 
+verify-content/
+  Verify web page content  
+
 
 Links
 =====
