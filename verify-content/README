@@ -6,7 +6,14 @@ Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
 Filelist
 ========
 links.txt
-  Verify content related links
+  Selenium (testing framework0 related links.
+  Many links here on using Selenium's WebDriver to test web pages.
+
+  Pulled in from:
+    How do we verify text present on the webpage in Selenium WebDriver?
+    https://www.quora.com/How-do-we-verify-text-present-on-the-webpage-in-Selenium-WebDriver
+
+  Very nice to verify content
 
 verify-content.txt
   Verify web page content
