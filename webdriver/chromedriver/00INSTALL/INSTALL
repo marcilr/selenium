@@ -6,6 +6,135 @@ Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
 Installation of ChromeDriver for web page existence testing
 
 
+Mon Sep 16 08:47:36 AKDT 2019
+=============================
+Installed chromedriver v77.0.3865.40 to match 
+chrome v77.0.3865.75 such that selenium web unit 
+tests will work:
+  ~/git/dnr/selenium/tests/
+
+
+Started to get error when running tests
+---------------------------------------
+$ python unittestTest01.py
+testIntDnrAlaskaGov (__main__.intDnrAlaskaGovTestCase) ... ERROR
+
+======================================================================
+ERROR: testIntDnrAlaskaGov (__main__.intDnrAlaskaGovTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+...
+  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/errorhandler.py", line 242, $
+    raise exception_class(message, screen, stacktrace)
+SessionNotCreatedException: Message: session not created: \
+This version of ChromeDriver only supports Chrome version 75
+
+
+----------------------------------------------------------------------
+Ran 1 test in 1.590s
+
+FAILED (errors=1)
+$
+
+Error is the difference between:
+
+Chrome version:
+  triple dot > Help > About Google Chrome:
+    Version 77.0.3865.75 (Official Build) (64-bit  <=== Chrome version
+                                                        i.e. need ChromeDriver 77.0.3865.40
+ChromeDriver
+  $ type chromedriver
+  chromedriver is /usr/local/bin/chromedriver
+  $
+
+  $ chromedriver --version
+  ChromeDriver 75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003})
+  $
+
+Installed chromedriver v77
+--------------------------
+Current Releases
+o If you are using Chrome version 78, please download ChromeDriver 78.0.3904.11
+o If you are using Chrome version 77, please download ChromeDriver 77.0.3865.40 <===
+  https://chromedriver.storage.googleapis.com/index.html?path=77.0.3865.40/
+o If you are using Chrome version 76, please download ChromeDriver 76.0.3809.126
+
+For older version of Chrome, please see below for the version of ChromeDriver
+that supports it.
+
+1. Downloaded chromedriver_linux64.zip (v77.0.3865.40):
+  $ cd ~/Downloads
+  $ wget https://chromedriver.storage.googleapis.com/77.0.3865.40/chromedriver_linux64.zip
+  --2019-09-16 08:57:26--  https://chromedriver.storage.googleapis.com/77.0.3865.40/chromedriver_linux64.zip
+  Resolving chromedriver.storage.googleapis.com (chromedriver.storage.googleapis.com)... 216.58.217.48, 2607:f8b0:400e:c09::80
+  Connecting to chromedriver.storage.googleapis.com (chromedriver.storage.googleapis.com)|216.58.217.48|:443... connected.
+  HTTP request sent, awaiting response... 200 OK
+  Length: 5425800 (5.2M) [application/zip]
+  Saving to: ‘chromedriver_linux64.zip’
+
+  chromedriver_linux6 100%[===================>]   5.17M  1.50MB/s    in 3.5s    
+
+  2019-09-16 08:57:30 (1.48 MB/s) - ‘chromedriver_linux64.zip’ saved [5425800/5425800]
+
+  $ 
+
+
+2. Expand chromedriver_linux64.zip:
+  $ unzip chromedriver_linux64.zip 
+  Archive:  chromedriver_linux64.zip
+    inflating: chromedriver
+  $
+
+3. Update to chromedriver v77.0.3865.40/
+  $ type chromedriver
+  chromedriver is /usr/local/bin/chromedriver
+  $
+
+  $ /usr/local/bin/chromedriver --version
+  ChromeDriver 75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003})
+  $
+
+  Move old version out of way:
+  # mv /usr/local/bin/chromedriver /usr/local/bin/chromedriver-75.0.3770.90
+  $ ls /usr/local/bin/chromedriver-75.0.3770.90 
+  # /usr/local/bin/chromedriver-75.0.3770.90
+
+  Install ChromeDriver v77.0.3865.40
+  $ cd ~/Downloads
+  # mv /home/remarcil/Downloads/chromedriver /usr/local/bin/
+  $ type chromedriver
+  chromedriver is /usr/local/bin/chromedriver
+  $ 
+
+  $ chromedriver -version
+  ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442})
+  $ 
+
+Report selenium test:
+  $ cd ~/git/dnr/selenium/tests
+  $ make test
+  rm -f *.html *.pyc
+  /usr/bin/python testSuite.py
+  ..........
+  Time Elapsed: 0:00:30.091627
+  /usr/bin/google-chrome unittestResults.html
+  Fontconfig warning: "/etc/fonts/fonts.conf", line 100: unknown element "blank"
+  Unable to revert mtime: /usr/local/share/fonts
+  Opening in existing browser session.
+  $
+
+  The HTMLTestRunner.py ran the unittestTest01.py to unittestTest11.py
+  web page unit tests without issue.
+
+  Looks good.
+
+
+ChromeDriver - WebDriver for Chrome
+https://chromedriver.chromium.org/downloads
+
+
+Thu Jun 20 15:00:00 AKDT 2019
+=============================
 1. Ensure Chromium/Google Chrome is installed in a
    recognized location
    --Getting started
