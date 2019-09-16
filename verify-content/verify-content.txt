@@ -1,0 +1,9 @@
+verify-content.txt
+Created Wed Jul  3 08:12:32 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Verify web page content
+
+
+
